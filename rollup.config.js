@@ -3,7 +3,7 @@ import buble from 'rollup-plugin-buble'
 
 export default {
     entry: 'app/index.js',
-    dest: 'public/app.js',
+    dest: 'dist/bundle.js',
     format: 'iife',
     plugins: [
         buble(),

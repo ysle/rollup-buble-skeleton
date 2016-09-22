@@ -1,1 +1,0 @@
-export default ['dave', 'henry', 'mart2ha']

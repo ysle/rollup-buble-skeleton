@@ -1,10 +1,7 @@
+import User from "./model/user"
+import { up } from './util/text'
 
-import Greeter from "./modules/Greeter"
-import cats from "./modules/cats"
+setTimeout(() => console.log(up('a delayed call')), 1000)
 
-
-console.log(cats)
-
-setTimeout(() => console.log(`timeout!`), 1000)
-
-let hello=new Greeter('You')
+let john=new User('John')
+john.hello()

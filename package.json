@@ -1,31 +1,32 @@
 {
-    "name": "rollup-buble-skeleton",
-    "version": "1.0.0",
-    "description": "This is a minimal skeleton for [rollup](http://rollupjs.org), comes with an es6 compiler and a lovely watcher.",
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/ysle/rollup-buble-skeleton.git"
-    },
-    "scripts": {
-        "start": "rollup -c",
-        "test": "rollup -c -w"
-    },
-    "keywords": [
-        "rollup",
-        "buble",
-        "uglify",
-        "skeleton"
-    ],
-    "author": "git@ysle.com",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/ysle/rollup-buble-skeleton/issues"
-    },
-    "homepage": "https://github.com/ysle/rollup-buble-skeleton#readme",
-    "dependencies": {
-        "rollup": "^0.34.1",
-        "rollup-plugin-buble": "^0.12.1",
-        "rollup-plugin-uglify": "^1.0.1",
-        "rollup-watch": "^2.5.0"
-    }
+  "name": "rollup-buble-skeleton",
+  "version": "1.0.0",
+  "description": "This is a minimal skeleton for [rollup](http://rollupjs.org), comes with an es6 compiler and a lovely watcher.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ysle/rollup-buble-skeleton.git"
+  },
+  "scripts": {
+    "start": "npm run build && node dist/bundle",
+    "build": "rollup -c",
+    "watch": "rollup -cw"
+  },
+  "keywords": [
+    "rollup",
+    "buble",
+    "uglify",
+    "skeleton"
+  ],
+  "author": "git@ysle.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ysle/rollup-buble-skeleton/issues"
+  },
+  "homepage": "https://github.com/ysle/rollup-buble-skeleton#readme",
+  "dependencies": {
+    "rollup": "^0.36.0",
+    "rollup-plugin-buble": "^0.14.0",
+    "rollup-plugin-uglify": "^1.0.1",
+    "rollup-watch": "^2.5.0"
+  }
 }
