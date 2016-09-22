@@ -1,6 +1,6 @@
 {
   "name": "rollup-buble-skeleton",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is a minimal skeleton for [rollup](http://rollupjs.org), comes with an es6 compiler and a lovely watcher.",
   "repository": {
     "type": "git",
